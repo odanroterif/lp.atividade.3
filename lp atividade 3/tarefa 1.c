@@ -33,8 +33,8 @@ int main()
         }
         if (age[i] == minORmax[0] && age[i] == minORmax[1])
         {
-            minORmaxage[0] = hight[i];
-            minORmaxage[1] = hight[i];
+            minORmaxage[0] = age[i];
+            minORmaxage[1] = age[i];
         }
         printf("\ndiga sua altura: ");
         scanf("%f", &hight[i]);
