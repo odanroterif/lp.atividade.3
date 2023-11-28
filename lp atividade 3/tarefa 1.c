@@ -63,8 +63,8 @@ int main()
         }
         if (hight[i] == minORmax[0] && hight[i] == minORmax[1])
         {
-            minORmax[0] = hight[i];
-            minORmax[1] = hight[i];
+            minORmax[0] = wight[i];
+            minORmax[1] = wight[i];
         }
         system("cls || clear");
     }
