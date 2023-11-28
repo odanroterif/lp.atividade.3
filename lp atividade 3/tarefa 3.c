@@ -16,14 +16,14 @@ int main()
 //--------------------------------
     do
     {
-        printf("1- CADASTRAR NOVO NÚMERO");
+        printf("1- CADASTRAR NOVO NÃšMERO");
         printf("\n2- ENCERRAR PROGRAMA E MOSTRAR CADASTRADOS");
         printf("\n\nescolha: ");
         scanf("%i", &option);
         system("cls || clear");
         if (option != 1 && option != 2)
         {
-            printf("OPÇÃO INVALIDA\n\n");
+            printf("OPÃ‡ÃƒO INVALIDA\n\n");
         }
         fflush(stdin);
         switch (option)
@@ -44,11 +44,12 @@ int main()
             } while (telephone[count] < 1);
             count++;
             system("cls || clear");
+            break;
         case 2:
             break;
         }
     } while (option != 2);
-    printf("NÚMEROS QUE VOCÊ CADASTROU");
+    printf("NÃšMEROS QUE VOCÃŠ CADASTROU");
     for (i = 0; i < count; i++)
     {
         printf("\n%i", telephone[i]);
